@@ -4,7 +4,6 @@ using System.IO.Compression;
 
 namespace Attendees
 {
-
     public class Attendee
     {
         public void WriteToDirectory(ZipArchiveEntry entry, string destDirectory)
@@ -21,4 +20,5 @@ namespace Attendees
             return false;
         }      
     }
+
 }
