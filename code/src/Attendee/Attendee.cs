@@ -11,7 +11,6 @@ namespace Attendees
             string destFileName = Path.Combine(destDirectory, entry.FullName);
             entry.ExtractToFile(destFileName);
         }
-        
         public bool AddAttendee(string added)
         {
             if (added == "exists") {
@@ -22,3 +21,4 @@ namespace Attendees
     }
 
 }
+
