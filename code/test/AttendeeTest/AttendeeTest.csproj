@@ -19,7 +19,3 @@
     <ProjectReference Include="..\..\src\Attendee\Attendee.csproj" />
   </ItemGroup>
 </Project>
-
-
-
-
