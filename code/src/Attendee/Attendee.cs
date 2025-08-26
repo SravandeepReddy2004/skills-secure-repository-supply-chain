@@ -19,6 +19,4 @@ namespace Attendees
             return false;
         }      
     }
-
 }
-
