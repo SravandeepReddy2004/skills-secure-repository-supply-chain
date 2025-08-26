@@ -4,7 +4,6 @@ using System.IO.Compression;
 
 namespace Attendees
 {
-
     public class Attendee
     {
         public void WriteToDirectory(ZipArchiveEntry entry, string destDirectory)
@@ -16,7 +15,6 @@ namespace Attendees
             }
             entry.ExtractToFile(destFileName);
         }
-        
         public bool AddAttendee(string added)
         {
             if (added == "exists") {
